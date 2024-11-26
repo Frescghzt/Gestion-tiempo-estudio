@@ -1,0 +1,24 @@
+/* Estilo para todo el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;  /* Tipo de letra */
+    max-width: 800px;  /* Ancho máximo */
+    margin: 0 auto;    /* Centrar contenido */
+    padding: 20px;     /* Espaciado interno */
+    text-align: center;  /* Centrar texto */
+}
+
+/* Estilo para enlaces */
+a {
+    display: inline-block;  /* Tipo de display */
+    margin-top: 20px;       /* Margen superior */
+    padding: 10px 20px;     /* Espaciado interno */
+    background-color: #007bff;  /* Color de fondo */
+    color: white;           /* Color de texto */
+    text-decoration: none;  /* Quitar subrayado */
+    border-radius: 5px;     /* Bordes redondeados */
+}
+
+/* Efecto hover para enlaces */
+a:hover {
+    background-color: #0056b3;  /* Cambio de color al pasar el mouse */
+}
