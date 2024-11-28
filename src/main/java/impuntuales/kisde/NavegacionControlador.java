@@ -15,7 +15,7 @@ public class NavegacionControlador {
     }
 
     // Método para la página de estudios
-    @GetMapping("/estudio")  // Mapea la ruta /estudios
+    @GetMapping("/erhgfgh")  // Mapea la ruta /estudios
     public String paginaEstudios(Model model) {
         // Agrega datos para mostrar en la página
         model.addAttribute("horasEstudio", 5);
