@@ -2,21 +2,11 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>Mis Estudios - Gestor de Tiempo</title>
-    <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <link rel="stylesheet" href="../static/css/style.css">
 </head>
 <body>
-    <h1>Mis Horas de Estudio</h1>
-    
-    <!-- Muestra las horas de estudio -->
-    <p>Horas estudiadas hoy: <span th:text="${horasEstudio}">0</span></p>
-    
-    <h2>Materias</h2>
-    <!-- Itera sobre la lista de materias -->
-    <ul>
-        <li th:each="materia : ${materias}" th:text="${materia}">Materia</li>
-    </ul>
-    
-    <!-- Enlace de regreso al inicio -->
-    <a href="/">Volver al Inicio</a>
+    <div>
+        <h1></h1>
+    </div>
 </body>
 </html>
