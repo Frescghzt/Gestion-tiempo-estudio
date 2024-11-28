@@ -1,10 +1,19 @@
 /* Estilo para todo el cuerpo de la página */
-body {
-    font-family: Arial, sans-serif;  /* Tipo de letra */
-    max-width: 800px;  /* Ancho máximo */
-    margin: 0 auto;    /* Centrar contenido */
-    padding: 20px;     /* Espaciado interno */
-    text-align: center;  /* Centrar texto */
+*{
+    background-color: #003459;  
+    margin: auto;  
+
+}
+
+
+
+div{
+    background-color: white;
+    border-radius: 50px;
+    margin: 5% auto auto 20%;
+    width: 60%;
+    height: 60%;
+    position: static;
 }
 
 /* Estilo para enlaces */
