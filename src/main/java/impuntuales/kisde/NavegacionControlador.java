@@ -10,11 +10,8 @@ public class NavegacionControlador {
     // Método para la página de inicio
     @GetMapping("/")  // Mapea la raíz del sitio web
     public String paginaInicio(Model model) {
-        // Agrega un mensaje que se mostrará en la página
-        model.addAttribute("mensaje", "Bienvenido a tu Aplicación de Gestión de Estudio");
         
-        // Retorna el nombre de la plantilla HTML que se renderizará
-        return "index"; 
+        return "estudio"; 
     }
 
     // Método para la página de estudios
@@ -25,6 +22,6 @@ public class NavegacionControlador {
         model.addAttribute("materias", new String[]{"Matemáticas", "Programación", "Inglés"});
         
         // Retorna el nombre de la plantilla HTML de estudios
-        return "estudio"; 
+        return "estudasdasdasio"; 
     }
 }
