@@ -11,7 +11,7 @@ public class NavegacionControlador {
     @GetMapping("/")  // Mapea la raíz del sitio web
     public String paginaInicio(Model model) {
         
-        return "estudio"; 
+        return "inicio"; 
     }
 
     // Método para la página de estudios
