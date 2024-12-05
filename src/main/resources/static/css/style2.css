@@ -1,0 +1,103 @@
+/* Estilo para todo el cuerpo de la página */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #003459;
+    background-image: url(	https://img.freepik.com/fotos-premium/abstracto-tecnologia-particulas-onduladas-diseno-fondo-onda-abstracta-puntos-moviles-particulas-flujo_457222-31583.jpg
+    );
+    background-size:100% 120%; /* Escala la imagen para cubrir toda el área */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat;
+}
+body::before{
+    background-color: rgba(0, 0, 0, 0.5)
+}
+.caja {
+    position: relative;
+    /* Permite que el logo se posicione correctamente sobre él */
+    background-color: rgba(72, 60, 143, 0.6);    
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin: 10% auto auto 20%;
+    width: 60%;
+    height: 600px;
+    border-color: #e6e6e6;
+    border: 217.2 32.6% 17.5;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+}
+
+
+
+h1 {
+    background-color: black;
+    padding: 0%;
+    text-align: center;
+    z-index: 100%;
+}
+
+
+
+.video {
+    position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Hace que el video cubra todo el área sin distorsionarse */
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+
+}
+
+
+
+
+
+
+button {
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 8%;
+    border-radius: 8px;
+    /* border: 0.2px solid black; */
+    padding: 1% 0 1%;
+    color: white;
+    background-color: rgb(151, 76, 165);    
+    box-shadow: 10px 5px 25px rgba(0, 0, 0, 0.3);
+    transform: translate(-5%, 1300%);
+    background-blend-mode: color;
+    opacity: 70%;
+
+}
+
+button:hover  {
+    background-color: #583C80;
+    color: white;
+}
+button:active{
+    border-color: #000000;
+}
+
+.content {
+    font-weight: 500;
+    width: auto;
+    height: auto;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+
+    /* background-color: aliceblue; */
+    /* top: 50%; */
+}
+
+.s1{
+    margin-right: 4%;
+}
+
+
