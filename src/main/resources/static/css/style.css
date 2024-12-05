@@ -194,3 +194,12 @@ a:hover {
     color: #4882B3;
     /* Cambio de color al pasar el mouse */
 }
+
+.decoracion_boton{
+    text-decoration: none;
+    color: white;
+}
+
+.decoracion_boton:hover{
+    color: white;
+}

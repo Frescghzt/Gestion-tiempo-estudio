@@ -11,8 +11,11 @@
 
             </div>  
             <div class="content">
-                    <button class="s1">Semestre 1</button>            
-                    <button class="s2">Semestre 2</button>            
+                <form action="">
+                    <label for="">Ingresa numero del Semestre</label>
+                    <input type="number" max="2" min="1" name="Semestre" th:field="*{Semestre}" placeholder="Numero de semestre"> 
+                    <input type="submit" >           
+                </form>
             </div> 
             
 

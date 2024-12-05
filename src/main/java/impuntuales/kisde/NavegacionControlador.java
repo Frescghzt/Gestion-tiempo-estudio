@@ -15,13 +15,9 @@ public class NavegacionControlador {
     }
 
     // Método para la página de estudios
-    @GetMapping("/erhgfgh")  // Mapea la ruta /estudios
+    @GetMapping("/activity2")  // Mapea la ruta /estudios
     public String paginaEstudios(Model model) {
-        // Agrega datos para mostrar en la página
-        model.addAttribute("horasEstudio", 5);
-        model.addAttribute("materias", new String[]{"Matemáticas", "Programación", "Inglés"});
         
-        // Retorna el nombre de la plantilla HTML de estudios
-        return "estudasdasdasio"; 
+        return "activity2"; 
     }
 }
